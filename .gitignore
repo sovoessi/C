@@ -1,4 +1,40 @@
-
-# Compiled
-
+# ignore all .exe files
+.exe
 *.exe
+/*.exe
+
+# ignore all .exe files in the directory and any of its subdirectories
+/**/*.exe
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
